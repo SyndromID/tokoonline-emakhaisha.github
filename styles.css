@@ -1,0 +1,90 @@
+.highlighted-kategori {
+    height: 250px;
+ }
+ 
+ .kategori-bahan-pokok{
+     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+     url('image/Bahan\ Pokok.jpg');
+     background-size: cover;
+     background-position: center;
+ }
+
+ .kategori-Buah-Buahan{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+    url('image/Buah\ Buahan.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-Frozen-Food{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+    url('image/Frozen\ Food.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.no-decoration {
+    text-decoration: none ;
+    color: white;
+}
+
+.no-decoration:hover {
+    color: #EEC373;
+}
+
+.text-harga{
+    font-size: 22px;
+    color: #EEC373;
+}
+
+.warna1 {
+    background-color: #876445;
+    }
+    
+    .warna2{
+    background-color: #CA965C;
+    }
+    
+    .warna3{
+        background-color: #EEC373;
+    }
+    
+    .warna4{
+        background-color: #F4DFBA;
+    }
+    
+    .banner{
+        height: 80vh;
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/image/banner2.jpg');
+    }
+    
+    .image-box{
+        height: 200px;
+    }
+
+    .image-box img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+
+    }
+
+    .banner-produk{
+        height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('..//image/banner.jpg');
+    
+    }
+
+    .list-group{
+        text-decoration: none;
+    }
+
+    .produk-terkait-image {
+        width: 100%; /* Ensure the image takes the full width of its container */
+        height: 200px; /* Set a fixed height */
+        object-fit: cover; /* Cover ensures the image covers the set dimensions while maintaining aspect ratio */
+        object-position: center; /* Center the image within the set dimensions */
+    }
+    
+    
